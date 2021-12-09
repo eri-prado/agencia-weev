@@ -1,0 +1,113 @@
+:root {
+  --bg-dark-color: #1A1A1A;
+  --bg-white-color: #E8E8E8;
+  --white-color: #E8E8E8;
+  --orange-color: #FD2403;
+}
+
+/* RESET */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* GENERAL STYLES */
+body {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: .1em;
+}
+
+button {
+  color: var(--white-color);
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  padding: 15px 40px;
+  letter-spacing: .1em;
+  border-radius: 2px;
+}
+
+
+.btn {
+
+
+  background-color: var(--orange-color);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+
+
+
+}
+
+/* MENU */
+.menu-bg {
+  background-color: var(--bg-dark-color);
+}
+
+.menu {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  color: var(--white-color);
+}
+
+.menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-nav a {
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 15px;
+  transition: .3s;
+}
+
+.menu-nav a:hover {
+  color: var(--orange-color);
+}
+
+/* CALL TO ACTION */
+
+.call-to-action {
+  background-color: var(--bg-dark-color);
+  color: var(--white-color);
+  text-align: center;
+  margin: 0 auto;
+  min-height: 500px;
+}
+
+.call-to-action h1 {
+  padding: 15px;
+  font-size: 4em;
+}
+
+.call-to-action span {
+  color: var(--orange-color);
+}
+
+.call-to-action p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.call-to-action button {
+  margin-top: 25px;
+}
