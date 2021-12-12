@@ -13,22 +13,21 @@
 </head>
 <body>
 
-  <header class="menu-bg">
-    <div class="menu">
-      <div class="menu-logo">
-        <a href="#" class="logo"><img src="img/logo.svg" alt="Logo da agência weev"></a>
-      </div>
-      <nav class="menu-nav">
-        <ul>
-          <li><a href="#inicio">Início</a></li>
-          <li><a href="#servicos">Serviços</a></li>
-          <li><a href="#fale-conosco">Fale Conosco</a></li>
-        </ul>
-      </nav>
-    </div>
+  <header id="header">
+    <a href="#" id="logo"><img src="img/logo.svg" alt="Logo da agência weev"></a>
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+        <span id="hamburger"></span>
+      </button>
+      <ul id="menu" role="menu">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#fale-conosco">Fale Conosco</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <section class="call-to-action"">
+  <section class="call-to-action">
       <h1>Uma agência <span>completa</span>.</h1>
       <div>
         <p>Você profissional ou dono de um negócio que deseja evoluir sua presença na web entre em contato conosco agora mesmo e solicite um orçamento sem compromisso.</p>
@@ -68,6 +67,6 @@
     </div>
   </footer>
 
-  
+  <script src="js/script.js"></script>
 </body>
 </html>
