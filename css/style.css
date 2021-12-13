@@ -90,6 +90,11 @@ body {
   font-weight: 300;
   display: block;
   padding: 0.5rem;
+  transition: .3s;
+}
+
+#menu a:hover {
+  color: var(--orange-color);
 }
 
 #btn-mobile {
@@ -192,6 +197,26 @@ body {
   font-size: 4em;
 }
 
+.call-to-action h1::after {
+  content: '|';
+  margin-left: 5px;
+  font-weight: 200;
+  opacity: 1;
+  animation: blink .7s infinite;
+}
+
+@keyframes blink {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
 .call-to-action span {
   color: var(--orange-color);
 }
@@ -201,6 +226,8 @@ body {
   font-weight: 300;
   margin-bottom: 10px;
 }
+
+
 
 .call-to-action button {
   margin-top: 25px;
