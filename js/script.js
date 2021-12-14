@@ -21,9 +21,10 @@ btnMobile.addEventListener('touchstart', toggleMenu);
 
 // Text typing animation
 const title = document.querySelector('.call-to-action > h1')
-// criar uma array que percorra pegue a posição que comece da palavra completa e adiciona um estilo na palavra.
+
 function typeWriter(element) {
   const textArray = element.innerHTML.split('')
+  // console.log(textArray)
   element.innerHTML = ''
   textArray.forEach((letter, index) => {
     setTimeout(() => element.innerHTML += letter, 75 * index)
