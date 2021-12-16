@@ -1,12 +1,5 @@
-.call-to-action {
-  background-color: var(--bg-dark-color);
-  color: var(--white-color);
-  text-align: center;
-  margin: 0 auto;
-  min-height: 500px;
-}
-
-.call-to-action::after {
+/* Divisor triangulo */
+/* .call-to-action::after {
   content: '';
   display: block;
   position: relative;
@@ -16,11 +9,23 @@
   border-width: 0 27px 36px 27px;
   border-color: transparent transparent var(--white-color) transparent;
   margin: 0 auto;
+} */
 
+.call-to-action {
+  background-color: var(--bg-dark-color);
+  color: var(--white-color);
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 10px;
+  min-height: 500px;
 }
 
+.call-to-action .container {
+  flex-direction: column;
+}
+
+
 .call-to-action h1 {
-  padding: 70px 0 35px 0;
   font-size: 4em;
 }
 
@@ -50,17 +55,17 @@
 
 .call-to-action p {
   font-size: 1rem;
-  font-weight: 300;
-  margin-bottom: 10px;
-}
-
-
-
-.call-to-action button {
-  margin-top: 25px;
+  font-weight: 200;
+  padding: 15px 0 35px 0;
 }
 
 .call-to-action div {
   max-width: 900px;
   margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .call-to-action h1 {
+    font-size: 3rem;
+  }
 }

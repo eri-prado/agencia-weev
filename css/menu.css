@@ -3,12 +3,12 @@
   padding: 15px 0;
 }
 
-.logo {
-  margin: 0 10px;
+.menu .container {
+  justify-content: space-between;
 }
 
+
 .menu-nav {
-  margin: 0 10px;
   align-self: center;
 }
 
@@ -36,10 +36,11 @@
   color: var(--white-color);
   align-items: center;
   font-family: inherit;
+  font-weight: 300;
   display: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .nav {
     display: block;
     position: absolute;
@@ -50,13 +51,8 @@
     transition: 0.6s;
     z-index: 1000;
     height: 0px;
-    padding: 0 10px;
     visibility: hidden;
     overflow-y: hidden;
-  }
-
-  .logo {
-    padding: 0 10px;
   }
 
   .menu-nav.active .nav {
@@ -66,14 +62,14 @@
   }
 
   .nav a {
-    padding: 1rem 0;
+    text-align: center;
+    padding: 2rem 0;
     margin: 0 1rem;
-    border-bottom: 2px solid var(--white-color);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.062);
   }
 
   .btn-mobile {
     display: flex;
-    padding: 0.5rem 1rem;
     font-size: 1rem;
     border: none;
     background: none;
