@@ -6,6 +6,19 @@
   min-height: 500px;
 }
 
+.call-to-action::after {
+  content: '';
+  display: block;
+  position: relative;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 27px 36px 27px;
+  border-color: transparent transparent var(--white-color) transparent;
+  margin: 0 auto;
+
+}
+
 .call-to-action h1 {
   padding: 70px 0 35px 0;
   font-size: 4em;
