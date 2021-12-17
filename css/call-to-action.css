@@ -16,14 +16,8 @@
   color: var(--white-color);
   text-align: center;
   margin: 0 auto;
-  padding: 40px 10px;
-  min-height: 500px;
+  padding: 100px 10px;
 }
-
-.call-to-action .container {
-  flex-direction: column;
-}
-
 
 .call-to-action h1 {
   font-size: 4em;
@@ -65,7 +59,12 @@
 }
 
 @media (max-width: 768px) {
+  .call-to-action {
+    padding: 50px 10px 100px 10px;
+  }
+
   .call-to-action h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
+    line-height: 1.3;
   }
 }
