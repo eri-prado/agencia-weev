@@ -6,10 +6,26 @@
 }
 
 body {
-  /* font-family: 'Poppins', sans-serif; */
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Poppins', sans-serif;
   letter-spacing: .1em;
   line-height: 1.5;
+}
+
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.subtitle {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.title,
+.subtitle {
+  text-align: center;
 }
 
 .btn {
@@ -57,4 +73,8 @@ body {
   max-width: 1080px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.services {
+  padding: 60px 0;
 }

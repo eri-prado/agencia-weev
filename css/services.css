@@ -1,18 +1,7 @@
 .services {
-  display: flex;
-  flex-direction: column;
-  height: 400px;
-  padding: 1rem 6rem;
-  text-align: center;
+  background-color: var(--bg-white-color);
 }
 
-.items {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-
-.card-item {
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
-  padding: 25px;
+.services span {
+  color: var(--orange-color);
 }
