@@ -1,7 +1,74 @@
 .services {
+  padding: 60px 0;
   background-color: var(--bg-white-color);
+}
+
+.services-grid {
+  display: flex;
+  align-items: center;
 }
 
 .services span {
   color: var(--orange-color);
 }
+
+.service {
+  background: #fff;
+  margin: 20px;
+  padding: 20px;
+  min-height: 450px;
+  border-radius: 4px;
+  text-align: center;
+  -webkit-box-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #e7e7e7;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+.service:hover {
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+  border: 2px solid var(--orange-color);
+}
+
+.services h3 {
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin: 1rem 0 0.6rem;
+}
+
+.services a {
+  margin: 1rem 0;
+  text-transform: uppercase;
+  align-self: flex-end;
+  font-weight: 600;
+}
+
+.services p {
+  margin: 1rem 0;
+  line-height: 1.5;
+}
+
+i {
+  margin: 1rem 0;
+}
+
+.service>* {
+  flex: 1 1 100%;
+}
+
+@media all and (max-width:768px) {
+  .services-grid {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+  }
