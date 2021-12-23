@@ -1,6 +1,7 @@
 :root {
   --bg-dark-color: #1A1A1A;
   --bg-white-color: #E8E8E8;
+  --dark-color: #1A1A1A;
   --white-color: #E8E8E8;
   --orange-color: #FD2403;
 }
@@ -11,11 +12,18 @@ body {
   line-height: 1.5;
 }
 
+.container {
+  display: flex;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 
 .title {
   font-size: 3rem;
   font-weight: 700;
   line-height: 1.5;
+
 }
 
 .subtitle {
@@ -23,8 +31,15 @@ body {
   font-weight: 300;
 }
 
+@media (max-width: 786px) {
+  .subtitle {
+    font-size: 1.625rem;
+  }
+}
+
 .title,
 .subtitle {
+  color: var(--bg-dark-color);
   text-align: center;
 }
 
@@ -67,11 +82,3 @@ body {
 .btn:hover {
   color: var(--orange-color);
 }
-
-.container {
-  display: flex;
-  max-width: 1080px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
