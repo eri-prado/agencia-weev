@@ -1,5 +1,5 @@
 .menu {
-  background: var(--bg-dark-color);
+  background: var(--dark-color);
   padding: 15px 0;
 }
 
@@ -21,7 +21,7 @@
 
 .nav a {
   color: var(--white-color);
-  font-weight: 300;
+  font-weight: 400;
   display: block;
   padding: 0.5rem;
   transition: .3s;
@@ -47,7 +47,7 @@
     width: 100%;
     top: 110px;
     right: 0px;
-    background: var(--bg-dark-color);
+    background: var(--dark-color);
     transition: 0.6s;
     z-index: 1000;
     height: 0px;

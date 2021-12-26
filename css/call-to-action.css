@@ -14,7 +14,7 @@
 
 
 .call-to-action {
-  background-color: var(--bg-dark-color);
+  background-color: var(--dark-color);
   color: var(--white-color);
   text-align: center;
   margin: 0 auto;

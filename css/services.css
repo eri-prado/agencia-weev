@@ -1,6 +1,6 @@
 .services {
   padding: 60px 60px;
-  background-color: var(--bg-white-color);
+  background-color: var(--white-color);
 }
 
 .services-grid {
@@ -38,7 +38,7 @@
 }
 
 .service :is(h3, p, a) {
-  color: var(--bg-dark-color)
+  color: var(--dark-color)
 }
 
 .services h3 {
