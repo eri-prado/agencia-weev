@@ -89,5 +89,9 @@ body {
 }
 
 .mouse span {
-  
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--orange-color);
+  display: block;
+  border-radius: ;
 }
