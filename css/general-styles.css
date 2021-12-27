@@ -11,8 +11,8 @@ body {
 }
 
 .bg-image {
-  background: url('/img/bg8.jpg') no-repeat;
-  background-size: 100%;
+  background: url('/img/bg7.jpg') no-repeat;
+  background-size: cover;
 }
 
 .container {
@@ -68,4 +68,26 @@ body {
 .btn:hover {
   color: var(--orange-color);
   background-color: transparent;
+}
+
+/* Scrolldown */
+
+.scroll-down {
+  position: absolute;
+  bottom: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.mouse {
+  width: 2.5rem;
+  height: 5rem;
+  border: 2px solid  var(--orange-color);
+  border-radius: 2rem;
+  margin-bottom: .5rem;
+  display: flex;
+}
+
+.mouse span {
+  
 }

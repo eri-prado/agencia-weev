@@ -1,5 +1,5 @@
 .cta {
-  background-color: #000000a1;
+  background-color: #00000070;
   color: var(--white-color);
 }
 
@@ -7,8 +7,8 @@
   min-height: 600px;
   padding: 80px 0 0 0;
   display: flex;
-  text-align: left;
   flex-direction: column;
+  align-items: center;
 }
 
 .cta h1 {
