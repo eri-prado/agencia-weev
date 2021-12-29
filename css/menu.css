@@ -1,5 +1,5 @@
 .menu {
-  background: #00000070;
+  background: #000000af;
   padding: 15px 0;
 }
 
@@ -8,13 +8,39 @@
   align-items: center;
 }
 
-.menu .container span {
-  color: white;
+.menu span {
+  color: var(--white-color);
   font-weight: 300;
   display: flex;
-  align-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
-.menu .container span img {
+.menu span svg {
   margin-right: 10px;
+}
+
+svg {
+  fill: var(--orange-color);
+}
+
+svg:hover {
+  fill: var(--white-color);
+}
+
+@media (max-width: 850px) {
+  .menu .clock {
+    display: none;
+  }
+
+  .menu .whatsapp span,
+  .menu .email span {
+    display: none;
+  }
+
+  .menu .contacts {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
 }

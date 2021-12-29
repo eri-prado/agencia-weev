@@ -1,5 +1,5 @@
 .cta {
-  background-color: #00000070;
+  background-color: #000000af;
   color: var(--white-color);
 }
 
@@ -14,6 +14,7 @@
 .cta h1 {
   font-size: 4rem;
   line-height: 100px;
+  text-align: center;
 }
 
 .cta h1::after {
@@ -29,6 +30,7 @@
   font-weight: 300;
   padding: 15px 0 35px 0;
   max-width: 700px;
+  text-align: center;
 }
 
 .cta span {

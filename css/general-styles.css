@@ -1,7 +1,8 @@
 :root {
   --dark-color: #1A1A1A;
-  --white-color: #ffffff;
+  --white-color: #f1f1f1;
   --orange-color: #FD2403;
+  --scroll-down-color: #FD2403;
 }
 
 body {
@@ -11,8 +12,10 @@ body {
 }
 
 .bg-image {
-  background: url('/img/bg7.jpg') no-repeat;
+  background-color: var(--dark-color);
+  background: url('/img/bg.jpg') no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .container {
@@ -47,7 +50,7 @@ body {
 }
 
 .btn {
-  color: var(--bg-dark-color);
+  color: var(--white-color);
   padding: 0.9em 2em;
   width: 200px;
   border-radius: 2px;
@@ -74,24 +77,60 @@ body {
 
 .scroll-down {
   position: absolute;
-  bottom: 5rem;
+  bottom: 2rem;
   left: 50%;
   transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .mouse {
-  width: 2.5rem;
-  height: 5rem;
-  border: 2px solid  var(--orange-color);
+  width: 1.785rem;
+  height: 2.785rem;
+  border: 2px solid var(--scroll-down-color);
   border-radius: 2rem;
   margin-bottom: .5rem;
   display: flex;
 }
 
 .mouse span {
-  width: 1rem;
-  height: 1rem;
-  background-color: var(--orange-color);
+  width: .25rem;
+  height: .35rem;
+  background-color: var(--scroll-down-color);
   display: block;
-  border-radius: ;
+  border-radius: 25%;
+  margin: auto;
+  animation: move-wheel 1s linear infinite;
+}
+
+@keyframes move-wheel {
+  0% {
+    opacity: 0;
+    transform: translateY(-1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0.75rem);
+  }
+}
+
+
+@keyframes arrow-down {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: .25;
+  }
+
+  75% {
+    opacity: .75;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
