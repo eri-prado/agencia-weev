@@ -143,7 +143,7 @@ svg:hover {
 
 .cta h1 {
   font-size: 4rem;
-  line-height: 100px;
+  line-height: 80px;
   text-align: center;
   padding: 0 15px;
 }
@@ -270,17 +270,6 @@ svg:hover {
   }
 
   /* cta */
-  @keyframes move-wheel {
-    0% {
-      opacity: 0;
-      transform: translateY(1rem);
-    }
-
-    100% {
-      opacity: 1;
-      transform: translateY(-0.75rem);
-    }
-  }
 
   .cta .container {
     padding: 20px 0 0 0;
@@ -288,12 +277,9 @@ svg:hover {
 
   .cta h1 {
     font-size: 3.5rem;
-    line-height: 75px;
+    line-height: 65px;
   }
 
-  .scroll-down {
-    bottom: 2.5rem;
-  }
 }
 
 
@@ -301,21 +287,4 @@ svg:hover {
   .cta .container {
     padding: 10px 0 0 0;
   }
-}
-
-@media (max-width: 450px) {
-  .cta h1 {
-    font-size: 2rem;
-    line-height: 55px;
-  }
-
-  .cta p {
-    font-size: .875rem;
-  }
-
-  .btn {
-    padding: 0.8em 1.8em;
-    font-size: .875rem;
-  }
-
 }
