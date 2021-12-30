@@ -233,14 +233,45 @@ svg:hover {
 
 /* Responsive */
 
+
+@media (max-width: 850px) {
+
+  /* menu */
+  .menu .clock {
+    display: none;
+  }
+
+  .menu .contacts .call {
+    display: flex;
+  }
+
+  .menu .whatsapp span,
+  .menu .email span {
+    display: none;
+  }
+
+  .menu .contacts {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  /* cta */
+  .cta .container {
+    gap: 10px;
+    padding: 40px 0 0 0;
+  }
+
+}
+
 @media (max-width: 786px) {
 
-  /* GENERAL STYLES */
+  /* General Styles */
   .subtitle {
     font-size: 1.625rem;
   }
 
-  /* CTA */
+  /* cta */
   @keyframes move-wheel {
     0% {
       opacity: 0;
@@ -263,39 +294,10 @@ svg:hover {
   }
 
   .scroll-down {
-    bottom: .25rem;
+    bottom: 1rem;
   }
 }
 
-@media (max-width: 850px) {
-
-  /* MENU */
-  .menu .clock {
-    display: none;
-  }
-
-  .menu .contacts .call {
-    display: flex;
-  }
-
-  .menu .whatsapp span,
-  .menu .email span {
-    display: none;
-  }
-
-  .menu .contacts {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-  }
-
-  /* CTA */
-  .cta .container {
-    gap: 10px;
-    padding: 40px 0 0 0;
-  }
-
-}
 
 @media (max-width: 576px) {
   .cta .container {
