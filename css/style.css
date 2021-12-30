@@ -302,7 +302,7 @@ svg:hover {
     padding: 10px 0 0 0;
   }
 
-  .cta h1 {
+  /* .cta h1 {
     font-size: 2rem;
     line-height: 45px;
   }
@@ -314,9 +314,9 @@ svg:hover {
   .btn {
     padding: 0.9em 2em;
     font-size: .875rem;
-  }
+  } */
 
   .scroll-down {
-    bottom: 1rem;
+    bottom: 2.5rem;
   }
 }
