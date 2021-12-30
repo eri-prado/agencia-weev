@@ -310,6 +310,12 @@ svg:hover {
   }
 
   .cta p {
-    font-size: 875rem;
+    font-size: .875rem;
   }
+
+  .btn {
+    padding: 0.8em 1.8em;
+    font-size: .875rem;
+  }
+
 }
