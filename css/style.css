@@ -302,3 +302,14 @@ svg:hover {
     padding: 10px 0 0 0;
   }
 }
+
+@media (max-width: 450px) {
+  .cta h1 {
+    font-size: 2rem;
+    line-height: 55px;
+  }
+
+  .cta p {
+    font-size: 875rem;
+  }
+}
