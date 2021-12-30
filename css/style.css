@@ -299,7 +299,7 @@ svg:hover {
 
 @media (max-width: 576px) {
   .cta .container {
-    padding: 10px 0 0 0;
+    padding: 5px 0 0 0;
   }
 
   .cta h1 {
