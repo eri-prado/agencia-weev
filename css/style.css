@@ -126,7 +126,7 @@ body {
   align-items: center;
 }
 
-.menu span {
+.menu :is(span, a) {
   color: var(--white-color);
   font-weight: 300;
   display: flex;
@@ -134,7 +134,7 @@ body {
   cursor: pointer;
 }
 
-.menu span svg {
+.menu :is(span svg, a svg) {
   margin-right: 10px;
 }
 
