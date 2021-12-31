@@ -144,7 +144,6 @@ svg:hover {
 .cta h1 {
   font-size: 4rem;
   line-height: 80px;
-  text-align: center;
   padding: 0 15px;
 }
 
@@ -156,12 +155,30 @@ svg:hover {
   animation: blink .7s infinite;
 }
 
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.cta :is(h1, h2, p) {
+  text-align: center;
+}
+
+
 .cta p {
   font-size: 1rem;
   font-weight: 300;
   padding: 15px 15px 35px 15px;
   max-width: 800px;
-  text-align: center;
 }
 
 .cta span {
@@ -285,10 +302,16 @@ svg:hover {
 
 @media (max-width: 576px) {
   .cta .container {
+    gap: 25px;
     padding: 10px 0 0 0;
   }
 
   .scroll-down {
     display: none;
+  }
+
+  .cta h1 {
+    font-size: 3rem;
+    line-height: 55px;
   }
 }
