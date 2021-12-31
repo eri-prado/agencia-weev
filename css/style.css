@@ -196,6 +196,9 @@ svg:hover {
   text-align: center;
 }
 
+.cta {
+  padding: 0 15px;
+}
 
 .cta p {
   font-size: 1rem;
@@ -296,7 +299,7 @@ svg:hover {
 
   /* cta */
   .cta .container {
-    gap: 10px;
+    gap: 15px;
     padding: 60px 0 0 0;
   }
 
@@ -320,10 +323,6 @@ svg:hover {
 
 
 @media (max-width: 576px) {
-  .cta .container {
-    gap: 25px;
-    padding: 40px 0 0 0;
-  }
 
   .scroll-down {
     display: none;
