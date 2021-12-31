@@ -19,6 +19,29 @@ ul {
   list-style: none;
 }
 
+/* Scrollbar */
+
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #a1a1a1 #1a1a1a;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #303030;
+  border-radius: 5px;
+  border: 0px none #ffffff;
+}
+
 /* General Styles */
 
 :root {
@@ -274,7 +297,7 @@ svg:hover {
   /* cta */
   .cta .container {
     gap: 10px;
-    padding: 40px 0 0 0;
+    padding: 60px 0 0 0;
   }
 
 }
@@ -288,10 +311,6 @@ svg:hover {
 
   /* cta */
 
-  .cta .container {
-    padding: 20px 0 0 0;
-  }
-
   .cta h1 {
     font-size: 3.5rem;
     line-height: 65px;
@@ -303,7 +322,7 @@ svg:hover {
 @media (max-width: 576px) {
   .cta .container {
     gap: 25px;
-    padding: 10px 0 0 0;
+    padding: 40px 0 0 0;
   }
 
   .scroll-down {
