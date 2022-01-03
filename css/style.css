@@ -19,13 +19,11 @@ ul {
 
 /* Scrollbar */
 
-/* Firefox */
 * {
   scrollbar-width: auto;
   scrollbar-color: #a1a1a1 #1a1a1a;
 }
 
-/* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
   width: 12px;
 }
