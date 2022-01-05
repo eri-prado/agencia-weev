@@ -84,6 +84,7 @@ body {
 .subtitle {
   color: var(--bg-dark-color);
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 .btn {
@@ -360,87 +361,6 @@ svg:hover {
   color: var(--orange-color);
 }
 
-.services-container {
-  /* position: relative; */
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 200px 15px 60px 15px;
-}
-
-.services-container .service-card {
-  /* position: relative; */
-  /* max-width: 500px; */
-  height: auto;
-  background-color: #161E34;
-  margin: 30px 15px;
-  padding: 20px 15px;
-  display: flex;
-  flex-direction: column;
-  border-radius: 10px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.103);
-}
-
-.services-container .service-card .imgBox {
-  position: relative;
-  top: -200px;
-  margin: 0 auto;
-  z-index: 1;
-  align-items: center;
-  justify-content: center;
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: 1s ease-in-out;
-  transition: 1s ease-in-out;
-}
-
-.services-container .service-card .imgBox:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-@media (max-width: 568px) {
-  .services-container .service-card .imgBox {
-    width: 100%;
-  }
-}
-
-.services-container .service-card .content {
-  position: relative;
-  margin-top: -200px;
-  padding: 10px 15px;
-  text-align: center;
-
-}
-
-.services-container .service-card .content h3 {
-  color: #999CA6;
-  font-size: 2.5rem;
-  font-weight: 800;
-  letter-spacing: 1px;
-}
-
-.services-container .service-card .content p {
-  color: var(--white-color);
-  font-size: 1rem;
-  padding: 25px 0;
-}
-
-.services-container .service-card .content a {
-  margin: 1rem 0;
-  text-transform: uppercase;
-  text-decoration: underline;
-  align-self: flex-end;
-  font-weight: 600;
-  color: var(--white-color);
-  /* color: var(--orange-color); */
-}
-
-
-
-
-
 .cards-container {
   flex-basis: 0;
   -ms-flex-positive: 1;
@@ -449,6 +369,7 @@ svg:hover {
 }
 
 .card {
+  display: flex;
   background: transparent url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80) 0% 0% no-repeat padding-box;
   border: 0.5px solid #707070;
   border-radius: 30px;
@@ -456,18 +377,31 @@ svg:hover {
   width: 100%;
   padding: 29px;
   background-size: 65% auto;
+  /* align-items: flex-end !important; */
 
 }
 
+.card-1 {
+  margin-bottom: 1.5rem !important;
+  ;
+}
+
+.card-2 {
+  background-position: top right;
+}
+
 .card-body {
+  flex: 1 1 auto;
   max-width: 514px;
   background: transparent linear-gradient(90deg, #FD2403 0%, #D97400 100%) 0% 0% no-repeat padding-box;
   border-radius: 23px;
   letter-spacing: 0;
   color: #FFFFFF;
-  flex: 1 1 auto;
   padding: 1.25rem;
+}
 
+.card-body-1 {
+  margin-left: auto
 }
 
 @media (max-width: 1366px) {
