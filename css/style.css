@@ -349,12 +349,12 @@ svg:hover {
 /* Services */
 
 .services {
-  background: #0f0c29;
+  background: var(--white-color);
   padding: 60px 0;
 }
 
 .services .title {
-  color: #e8e8e8;
+  color: var(--dark-color);
 }
 
 .services .title span {
@@ -371,7 +371,7 @@ svg:hover {
 .card {
   display: flex;
   background: transparent url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80) 0% 0% no-repeat padding-box;
-  border: 0.5px solid #707070;
+  border: 1px solid var(--dark-color);
   border-radius: 30px;
   height: 528px;
   width: 100%;
