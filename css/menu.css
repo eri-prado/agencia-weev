@@ -1,0 +1,35 @@
+/* Menu */
+
+.menu {
+  background: #000000af;
+  padding: 15px 0;
+}
+
+.menu .container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu :is(span, a) {
+  color: var(--white-color);
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu :is(span svg, a svg) {
+  margin-right: 10px;
+}
+
+.menu .contacts .call {
+  display: none;
+}
+
+svg {
+  fill: var(--orange-color);
+}
+
+svg:hover {
+  fill: var(--white-color);
+}

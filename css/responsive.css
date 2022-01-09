@@ -1,0 +1,60 @@
+/* Responsive */
+
+@media (max-width: 850px) {
+
+  /* menu */
+  .menu .clock {
+    display: none;
+  }
+
+  .menu .contacts .call {
+    display: flex;
+  }
+
+  .menu .whatsapp span,
+  .menu .email span {
+    display: none;
+  }
+
+  .menu .contacts {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  /* cta */
+  .cta .container {
+    gap: 15px;
+    padding: 60px 0 0 0;
+  }
+
+}
+
+@media (max-width: 786px) {
+
+  /* General Styles */
+  .subtitle {
+    font-size: 1.625rem;
+  }
+
+  /* cta */
+
+  .cta h1 {
+    font-size: 3.5rem;
+    line-height: 65px;
+  }
+
+}
+
+
+@media (max-width: 576px) {
+
+  .scroll-down {
+    display: none;
+  }
+
+  .cta h1 {
+    font-size: 3rem;
+    line-height: 55px;
+  }
+}
