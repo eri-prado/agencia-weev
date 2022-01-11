@@ -21,9 +21,9 @@ ul {
 
 :root {
   --dark-color: #060d28;
-  --white-color: #dadada;
-  --orange-color: #FD2403;
-  --scroll-down-color: #FD2403;
+  --white-color: #f2f2f2;
+  --orange-color: #fd2403;
+  --scroll-down-color: #fd2403;
 }
 
 body {
