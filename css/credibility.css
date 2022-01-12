@@ -2,3 +2,28 @@
   background: var(--dark-color);
   padding: 60px 0;
 }
+
+.cards-credibility-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.cards-credibility {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.cards-credibility img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.cards-credibility img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
