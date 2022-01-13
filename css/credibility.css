@@ -11,6 +11,10 @@
   flex-wrap: wrap;
 }
 
+.credibility .title {
+  color: var(--white-color);
+}
+
 .cards-credibility {
   margin: 0 auto;
   max-width: 400px;
