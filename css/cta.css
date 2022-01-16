@@ -40,7 +40,7 @@
   }
 }
 
-.cta :is(h1, h2, p) {
+.cta :is(h1, p) {
   text-align: center;
 }
 
