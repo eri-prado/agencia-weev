@@ -3,13 +3,13 @@
   padding: 60px 0;
 }
 
-.cards-credibility-container {
+.credibility .container {
   display: flex;
-  align-items: center;
+  justify-content: space-around;
+}
+
+.cards-credibility-container {
   text-align: center;
-  margin: 0 auto;
-  flex-wrap: wrap;
-  gap: 15px;
 }
 
 .credibility .title {

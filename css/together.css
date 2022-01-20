@@ -11,11 +11,11 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .together img {
-  filter: opacity(50%);
+  filter: opacity(75%);
 }
 
 .together h3 {

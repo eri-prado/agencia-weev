@@ -1,0 +1,15 @@
+.footer {
+  background: var(--dark-color);
+  padding: 60px 0;
+  height: 400px;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form form :is(label, textarea, input) {
+  display: block;
+  width: 100%;
+}
