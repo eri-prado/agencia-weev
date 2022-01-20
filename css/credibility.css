@@ -33,6 +33,7 @@
 }
 
 .cards-credibility img {
+  max-width: 100px;
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: .3s ease-in-out;

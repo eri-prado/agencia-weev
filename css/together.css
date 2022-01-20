@@ -1,0 +1,30 @@
+.together {
+  background: url('../img/image1\ copia2.jpg') no-repeat;
+  background-size: cover;
+  filter: var(--orange-color);
+  padding: 60px 0;
+  height: 400px;
+}
+
+.together .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.together img {
+  filter: opacity(50%);
+}
+
+.together h3 {
+  font-size: 4rem;
+  line-height: 1;
+  color: var(--white-color);
+}
+
+.together span {
+  font-weight: 500;
+  color: var(--dark-color);
+}
