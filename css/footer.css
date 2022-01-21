@@ -1,7 +1,7 @@
 .footer {
   background: var(--dark-color);
   padding: 60px 0;
-  height: 400px;
+  min-height: 550px;
 }
 
 .footer .container {
@@ -9,7 +9,62 @@
   justify-content: space-around;
 }
 
+.footer .form {
+  width: 400px;
+  min-height: 450px;
+}
+
+.footer .contact {
+  width: 400px;
+}
+
+.footer h4 {
+  color: var(--white-color);
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.footer h4::after {
+  background-color: var(--white-color);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.footer h4::after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
 .form form :is(label, textarea, input) {
   display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  outline: none;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+.form input {
+  height: 2.5rem;
+  padding: 10px;
+}
+
+.form :is(input, textarea) {
+  color: #6d6c6d;
+  background-color: #202020;
+  border: none;
+}
+
+.form textarea {
+  padding: 10px;
+  resize: none;
+}
+
+.form button {
   width: 100%;
 }
