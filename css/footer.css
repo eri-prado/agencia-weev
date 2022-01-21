@@ -68,3 +68,12 @@
 .form button {
   width: 100%;
 }
+
+.copy {
+  background-color: var(--dark-color);
+  text-align: center;
+  color: white;
+  padding: 5px 0;
+  font-weight: 400;
+  border-top: solid 1px #6d6c6d;
+}
