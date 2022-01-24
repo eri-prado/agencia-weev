@@ -40,7 +40,18 @@
   margin-right: -50%;
 }
 
-.form form :is(label, textarea, input) {
+.footer a {
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+}
+
+.footer svg {
+  margin-right: 10px;
+}
+
+.footer .form form :is(label, textarea, input) {
   display: block;
   width: 100%;
   margin-bottom: 10px;
