@@ -1,20 +1,16 @@
 .footer {
   background: var(--dark-color);
-  padding: 60px 0;
 }
 
 .footer .container {
   display: flex;
+  padding: 60px 0;
 }
 
-.footer :is(.form, .contact) {
+.footer :is(.form, .importants-links) {
   flex: 1;
   padding: 0 25px;
 }
-
-/* .footer .form {
-  height: 450px;
-} */
 
 .footer h4 {
   color: var(--white-color);
@@ -35,8 +31,9 @@
 }
 
 .footer a {
-  color: #6d6c6d;
+  color: #f9f9f9;
   display: flex;
+  margin-bottom: 10px;
   align-items: center;
   font-weight: 400;
 }
@@ -45,7 +42,15 @@
   margin-right: 10px;
 }
 
-.footer .form form :is(label, textarea, input) {
+.footer .contacts {
+  margin-bottom: 50px;
+}
+
+.footer .social-media a {
+  display: inline;
+}
+
+.form form :is(label, textarea, input) {
   display: block;
   width: 100%;
   margin-bottom: 10px;
@@ -76,7 +81,7 @@
   font-size: .875rem;
 }
 
-.copy {
+.copyright {
   background-color: var(--dark-color);
   text-align: center;
   color: #6d6c6d;
