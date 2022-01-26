@@ -44,6 +44,19 @@
     line-height: 65px;
   }
 
+  /* Together */
+
+  .together .container {
+    flex-direction: ;
+  }
+
+  .together img {
+    width: 75%;
+  }
+
+  .together h3 {
+    font-size: 3rem !important;
+  }
 }
 
 
@@ -56,5 +69,19 @@
   .cta h1 {
     font-size: 3rem;
     line-height: 55px;
+  }
+
+  /* Together */
+
+  .together div {
+    display: flex;
+  }
+
+  .together img {
+    margin: 0 auto;
+  }
+
+  .together h3 {
+    text-align: center;
   }
 }
