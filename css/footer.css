@@ -71,6 +71,10 @@
   border: none;
 }
 
+.form :is(input, textarea):focus {
+  border: #6d6c6d;
+}
+
 .form textarea {
   padding: 10px;
   resize: none;

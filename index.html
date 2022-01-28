@@ -209,12 +209,12 @@
         <h4>Envie uma mensagem</h4>
         <form action="">
           <label for="nome"></label>
-          <input type="text" id="nome" placeholder="Nome">
+          <input type="text" id="nome" placeholder="Nome" required maxlength="50" minlength="2">
           <label for="telefone"></label>
-          <input type="text" id="telefone" placeholder="Telefone">
+          <input type="text" id="telefone" placeholder="Telefone" maxlength="15">
           <label for="email"></label>
-          <input type="email" id="email" placeholder="E-mail">
-          <textarea name="mensagem" id="" cols="30" rows="10"></textarea>
+          <input type="email" id="email" placeholder="E-mail" required maxlength="50">
+          <textarea name="mensagem" id="" cols="30" rows="10" required maxlength="500"></textarea>
           <button type="submit" class="btn">Enviar mensagem</button>
         </form>
       </div>
