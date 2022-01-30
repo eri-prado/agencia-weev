@@ -3,7 +3,7 @@
   background-size: cover;
   filter: var(--orange-color);
   padding: 60px 0;
-  height: 400px;
+  min-height: 400px;
 }
 
 .together .container {

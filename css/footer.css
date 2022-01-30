@@ -42,7 +42,7 @@
   margin-right: 10px;
 }
 
-.footer .contacts {
+.footer :is(.contacts, .social-media) {
   margin-bottom: 50px;
 }
 
