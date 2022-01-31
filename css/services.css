@@ -5,12 +5,11 @@
   padding: 60px 0;
 }
 
-.services .title {
+.services .section-title {
   color: var(--dark-color);
-  line-height: 55px;
 }
 
-.services .title .dot {
+.services .section-title .dot {
   color: var(--orange-color);
 }
 

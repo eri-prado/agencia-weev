@@ -32,11 +32,6 @@
 
 @media (max-width: 786px) {
 
-  /* General Styles */
-  .subtitle {
-    font-size: 1.625rem;
-  }
-
   /* cta */
 
   .cta h1 {
@@ -69,6 +64,11 @@
   .cta h1 {
     font-size: 2.6rem;
     line-height: 55px;
+  }
+
+
+  .section-title {
+    font-size: 2.6rem;
   }
 
   /* Together */

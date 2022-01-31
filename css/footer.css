@@ -36,6 +36,7 @@
   margin-bottom: 10px;
   align-items: center;
   font-weight: 400;
+  font-size: .875rem;
 }
 
 .footer svg {
@@ -72,7 +73,7 @@
 }
 
 .form :is(input, textarea):focus {
-  border: #6d6c6d;
+  color: #6d6c6d;
 }
 
 .form textarea {
@@ -90,7 +91,7 @@
   text-align: center;
   color: #6d6c6d;
   padding: 10px 0;
-  font-weight: 400;
+  font-weight: 500;
   font-size: .875rem;
   border-top: solid 1px #6d6c6d;
 }

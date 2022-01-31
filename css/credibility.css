@@ -12,21 +12,21 @@
   text-align: center;
 }
 
-.credibility .title {
+.credibility .section-title {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--white-color);
   margin-bottom: 6px;
-  line-height: 1.225;
+  line-height: 56px;
 }
 
-.credibility .title span {
+.credibility .section-title span {
   font-size: 3rem;
   font-weight: 700;
   color: var(--orange-color);
 }
 
-.credibility .title .dot {
+.credibility .section-title .dot {
   color: var(--white-color);
 }
 

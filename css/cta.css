@@ -18,28 +18,6 @@
   padding: 0 15px;
 }
 
-/* .cta h1::after {
-  content: '|';
-  margin-left: 5px;
-  font-weight: 200;
-  opacity: 1;
-  animation: blink .7s infinite;
-}
-
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-} */
-
 .cta :is(h1, p) {
   text-align: center;
 }
