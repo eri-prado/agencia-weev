@@ -7,9 +7,10 @@
 
 .services .title {
   color: var(--dark-color);
+  line-height: 55px;
 }
 
-.services .title span {
+.services .title .dot {
   color: var(--orange-color);
 }
 
