@@ -2,13 +2,21 @@
 
 // TEXT TYPING ANIMATION
 
-const title = document.querySelector('.cta h1')
+// const title = document.querySelector('.cta h1')
 
-function typeWriter(element) {
-  const textArray = element.innerHTML.split('')
-  element.innerHTML = ''
-  textArray.forEach((letter, index) => {
-    setTimeout(() => element.innerHTML += letter, 75 * index)
-  })
-}
-typeWriter(title)
+// function typeWriter(element) {
+//   const textArray = element.innerHTML.split('')
+//   element.innerHTML = ''
+//   textArray.forEach((letter, index) => {
+//     setTimeout(() => element.innerHTML += letter, 75 * index)
+//   })
+// }
+// typeWriter(title)
+
+
+var typed = new Typed('.type', {
+  strings: ['website', 'ecommerce', 'design'],
+  typeSpeed: 120,
+  backSpeed: 70,
+  loop: true,
+});
