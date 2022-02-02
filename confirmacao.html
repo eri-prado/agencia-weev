@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
     rel="stylesheet">
   <title>Mensagem enviada com sucesso!</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <style>
     * {
       margin: 0;
@@ -19,16 +20,25 @@
       font-family: 'Montserrat', sans-serif;
       color: white;
       text-align: center;
+
+    }
+
+    .container {
+      display: flex;
+      width: 100%;
+      padding-top: 60px;
     }
 
     section {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column;
       background-color: rgba(0, 0, 0, 0.658);
       padding: 50px;
       border-radius: 5px;
+      align-items: center;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 800px;
     }
 
     h1 {
@@ -64,12 +74,14 @@
 
 <body>
 
-  <section>
-    <img src="img/logo.svg" alt="logo agência weev">
-    <h1>Mensagem enviada com sucesso!</h1>
-    <p>Nós entraremos em contato com você o mais breve possível.</p>
-    <button>Voltar para o site</button>
-  </section>
+  <div class="container">
+    <section>
+      <img src="img/logo.svg" alt="logo agência weev">
+      <h1>Mensagem enviada com sucesso!</h1>
+      <p>Nós entraremos em contato com você o mais breve possível.</p>
+      <button href="index.html">Voltar para o site</button>
+    </section>
+  </div>
 
 </body>
 
