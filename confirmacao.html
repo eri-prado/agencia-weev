@@ -19,26 +19,22 @@
       background-color: #1a1a1a;
       font-family: 'Montserrat', sans-serif;
       color: white;
-      text-align: center;
-
     }
 
     .container {
       display: flex;
-      width: 100%;
-      padding-top: 60px;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
     }
 
     section {
-      display: flex;
-      flex-direction: column;
+      text-align: center;
       background-color: rgba(0, 0, 0, 0.658);
       padding: 50px;
       border-radius: 5px;
       align-items: center;
-      margin: 0 auto;
-      width: 100%;
-      max-width: 800px;
+      margin: 15px;
     }
 
     h1 {
@@ -75,11 +71,11 @@
 <body>
 
   <div class="container">
-    <section>
+    <section class="item">
       <img src="img/logo.svg" alt="logo agência weev">
       <h1>Mensagem enviada com sucesso!</h1>
       <p>Nós entraremos em contato com você o mais breve possível.</p>
-      <button href="index.html">Voltar para o site</button>
+      <a href="./index.html"><button href="index.html">Voltar para o site</button></a>
     </section>
   </div>
 
