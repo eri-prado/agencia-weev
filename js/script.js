@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 // TEXT TYPING ANIMATION
 
@@ -31,19 +31,19 @@ const animationClass = 'animate';
 
 function animeScroll() {
   const windowTop = window.pageYOffset + ((window.innerHeight * 3) / 4);
-  target.forEach(function (element) {
+  target.forEach((element) => {
     if ((windowTop) > element.offsetTop) {
       element.classList.add(animationClass);
     } else {
       element.classList.remove(animationClass);
     }
-  })
+  });
 }
 
 animeScroll();
 
 if (target.length) {
-  window.addEventListener('scroll', debounce(function () {
+  window.addEventListener('scroll', debounce(() => {
     animeScroll();
   }, 100));
 }
