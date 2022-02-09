@@ -1,5 +1,9 @@
 'use strict';
 
+// DESABILITY JS
+
+document.documentElement.classList.add('js');
+
 // TEXT TYPING ANIMATION
 
 const typed = new Typed('.type', {
