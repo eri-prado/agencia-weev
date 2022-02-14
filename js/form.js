@@ -4,9 +4,9 @@ const form = document.querySelector('form')
 
 function formSent(response) {
   if (response.ok) {
-    form.innerHTML = "<p>Mensagem enviada, em breve entraremos em contato. Geralmente respondemos em 24 horas.</p>"
+    form.innerHTML = "<p style='color: #f2f2f2;'>Mensagem enviada com sucesso, em breve entraremos em contato. Geralmente respondemos em 24 horas.</p>"
   } else {
-    form.innerHTML = "<p>Erro no envio, você pode enviar diretamente para o nosso e-mail em: contato@agenciaweev.com.</p>"
+    form.innerHTML = "<p style='color: #f2f2f2;'>Erro no envio, você pode enviar diretamente para o nosso e-mail em: contato@agenciaweev.com.</p>"
   }
   
 }

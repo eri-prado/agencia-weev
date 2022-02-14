@@ -58,6 +58,12 @@
 
 @media (max-width: 576px) {
 
+  /* CTA */
+
+  .cta .container {
+    padding: 120px 0 0 0;
+  }
+
   .scroll-down {
     display: none;
   }
