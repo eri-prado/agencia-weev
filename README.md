@@ -3,7 +3,7 @@
 ## 📷 Screenshot
 [![Screenshot](https://github.com/eri-prado/agencia-weev/blob/main/img/screenshot.JPG?raw=true)](https://github.com/eri-prado/agencia-weev/blob/main/img/screenshot.JPG?raw=true)
 
-## 📋 Description Project
+## 📋 Descrição do Projeto
 One page responsivo.
 
 ## 💻 Tecnologias utilizadas
