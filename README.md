@@ -12,8 +12,8 @@ One page responsivo.
 - JavaScript
 
 ## 📈 Status do projeto
-<!-- ✅ Concluído -->
-🛠 Em construção
+✅ Concluído
+<!-- 🛠 Em construção -->
 
 ## 🚀 Links 
-- Site em produção: [Link](https://eri-prado.github.io/agencia-weev/)
+- Site: [Link](https://eri-prado.github.io/agencia-weev/)
