@@ -22,7 +22,6 @@
 
 .card {
   display: flex;
-  background: transparent url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80) 0% 0% no-repeat padding-box;
   border: 3px solid var(--dark-color);
   border-radius: 30px;
   height: 528px;
@@ -32,11 +31,12 @@
 }
 
 .card-1 {
+  background: transparent url(/img/service-website.jpg) 0% 0% no-repeat padding-box;
   margin-bottom: 1.5rem !important;
-  ;
 }
 
 .card-2 {
+  background: transparent url(/img/service-design.jpg) 0% 0% no-repeat padding-box;
   background-position: top right;
 }
 
@@ -48,6 +48,15 @@
   letter-spacing: 0;
   color: #FFFFFF;
   padding: 2rem;
+}
+
+.card-body h2 {
+  font-size: 2rem;
+  line-height: 64px;
+}
+
+.card-body :is(p, h2) {
+  letter-spacing: 1.25px;
 }
 
 .card-body-1 {
